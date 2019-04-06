@@ -5,7 +5,16 @@ This is a collection of resources which students found useful to complete the Fe
 
 This has been developed with techniques taught in the classroom leading up to this project
 
+## View Page
+### Local
+ 1. `git clone https://github.com/crystal-dawn/udacity-fend-feed-reader-testing-resources.git`
+ 2. `cd udacity-fend-feed-reader-testing-resources`
+ 3. `npm i`
+
 ## Contribution
 Sharing is caring! This repo wouldn't be possible without students. Don't be shy to keep the collection growing! Please make sure to categorize each resource under the respective rubric criteria.
 
 ## Dependencies
+  * [Node.js](https://nodejs.org/en/)
+  * [Gulp](https://www.npmjs.com/package/gulp)
+  ..* [Browsersync](https://www.npmjs.com/package/browser-sync)

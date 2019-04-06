@@ -1,0 +1,35 @@
+{
+  "name": "feed-reader-testing",
+  "version": "1.0.0",
+  "description": "'Resources for Udacity Frontend Nanodegree project Feed Reader Testing'",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crystal-dawn/udacity-fend-feed-reader-testing-resources.git"
+  },
+  "keywords": [
+    "Udacity",
+    "FEND",
+    "JavaScript",
+    "Jasmine",
+    "Gulp",
+    "resources",
+    "project",
+    "'Feed",
+    "Reader",
+    "Testing'"
+  ],
+  "author": "Crystal Yungwirth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crystal-dawn/udacity-fend-feed-reader-testing-resources/issues"
+  },
+  "homepage": "https://github.com/crystal-dawn/udacity-fend-feed-reader-testing-resources#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0"
+  }
+}
