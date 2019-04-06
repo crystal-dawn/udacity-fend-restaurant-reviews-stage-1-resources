@@ -1,7 +1,7 @@
 const gulp = require('gulp');
 const browserSync = require('browser-sync').create();
 
-/**
+/**,
 *@description Default task
 */
 gulp.task('default', done => {
