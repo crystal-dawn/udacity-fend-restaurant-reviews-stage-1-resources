@@ -17,4 +17,10 @@ Sharing is caring! This repo wouldn't be possible without students. Don't be shy
 ## Dependencies
   * [Node.js](https://nodejs.org/en/)
   * [Gulp](https://www.npmjs.com/package/gulp)
+  ### Live Editing
   ..* [Browsersync](https://www.npmjs.com/package/browser-sync)
+  ### CSS Optimization
+  ..* [gulp-sass](https://www.npmjs.com/package/gulp-sass)
+  ..* [gulp-watch](https://www.npmjs.com/package/gulp-watch)
+  ..* [gulp-autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer)
+  * [Jasmine](https://jasmine.github.io/index.html)
