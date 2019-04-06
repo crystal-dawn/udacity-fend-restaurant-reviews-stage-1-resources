@@ -1,3 +1,10 @@
+/*******************************************************************************
+                              Small Mobile Layout
+*******************************************************************************/
+/*****************************************************
+                     Main layout
+******************************************************/
+/*************** Theme color variables ***************/
 :root {
   --primary-color: #2196f3;
   --primary-color-light: #6ec6ff;
@@ -5,3 +12,116 @@
   --secondary-color: #263238;
   --secondary-color-light: #e0e0e0;
   --secondary-color-dark: #000a12; }
+
+/****** Responsive layout and basic page style *******/
+body {
+  font-family: monospace;
+  max-width: 100%;
+  background-color: var(--secondary-color-light); }
+
+.container {
+  max-width: 100vw;
+  min-height: 100vh;
+  max-height: 100vh; }
+
+header {
+  position: fixed;
+  z-index: 1;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2196f3), color-stop(#34a2f7), color-stop(#47aefa), color-stop(#5bbafd), to(#6ec6ff));
+  background-image: linear-gradient(to bottom, #2196f3, #34a2f7, #47aefa, #5bbafd, #6ec6ff); }
+
+.page-header {
+  font-size: 2em;
+  width: 100vw;
+  margin: 0;
+  text-align: center;
+  color: white; }
+
+/************************
+ Criteria Dropdown Menu
+************************/
+.criteria-list {
+  list-style: none; }
+
+.dropdown {
+  overflow: hidden; }
+
+.dropdown-button {
+  /* height: 100%; */
+  /* Important for vertical align on mobile phones */
+  padding-bottom: 1vh;
+  color: var(--secondary-color-dark);
+  border: none;
+  outline: none;
+  background-color: inherit; }
+
+.dropdown-content {
+  position: absolute;
+  top: 5.5vh;
+  display: none;
+  color: var(--secondary-color-dark);
+  background-color: white;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+
+.dropdown-content .dropdown-link {
+  display: block;
+  float: none;
+  text-align: left;
+  text-decoration: none; }
+
+.dropdown-link:hover {
+  color: var(--secondary-color-dark);
+  background-color: var(--primary-color-light);
+  mix-blend-mode: hard-light; }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block; }
+
+/******************************************************
+              Shared Navigation Styles
+******************************************************/
+/********** Consistent navigation link style *********/
+.top-nav,
+.bottom-nav {
+  font-family: Arial; }
+
+.top-nav .nav-link,
+.dropdown-link {
+  font-size: .95em;
+  float: left;
+  /* Keep link close to 48px on mobile view so it's easily tappable */
+  padding: 3%;
+  text-align: center;
+  text-decoration: none;
+  color: var(--secondary-color-dark); }
+
+.top-nav .nav-link:hover,
+.dropdown .dropdown-button:hover,
+.bottom-nav .nav-link:hover {
+  color: white;
+  background-color: var(--secondary-color-dark); }
+
+/***************** Bottom Navigation *****************/
+.bottom-nav {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  height: 5vh;
+  padding: 1% 0;
+  background-color: var(--primary-color-light); }
+
+.bottom-content {
+  font-size: 1.95em;
+  position: absolute;
+  bottom: 0;
+  padding: 1% 5% 0 5%;
+  color: black; }
+
+.right {
+  right: 0; }
+
+/* Hide extra external resources in mobile view due to size constraints */
+.visibility {
+  visibility: hidden; }
