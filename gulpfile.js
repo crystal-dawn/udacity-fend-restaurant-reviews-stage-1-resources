@@ -10,8 +10,8 @@ const watch = require('gulp-watch');
 const sass = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
 /**
-*@description Default task
-*/
+ *@description Default task
+ */
 gulp.task('default', done => {
   gulp.watch('sass/**/*.scss', gulp.series('styles'));
   browserSync.init({
