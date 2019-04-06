@@ -1,19 +1,28 @@
-/* TODO: Write a new test suite named 'Initial Entries' */
-
 $(function() {
-  describe('Page', function() {
-    it('has a main element', () => {
-      const element = document.querySelector('.criterias');
+    describe('Page', () => {
+      it('has a header', () => {
+        const element = document.querySelector('#pageHeader');
 
-      expect(element).not.toBe(null);
+        expect(element).not.toBe(null);
+      });
+      it('has a top navigation menu', () => {
+        const element = document.querySelector('#topNav');
+
+        expect(element).not.toBe(null);
+      });
+      it('has a bottom navigation menu', () => {
+        const element = document.querySelector('#bottomNav');
+
+        expect(element).not.toBe(null);
+      });
+      it('has a main element', () => {
+        const element = document.querySelector('#criterias');
+
+        expect(element).not.toBe(null);
+      });
     });
-  });
 
-  describe('Criteria card', function() {
-    it('has a section element', () => {
-      const element = document.querySelector('.criteria');
+    describe('Main element', () => {
 
-      expect(element).not.toBe(null);
-    })
-  })
+    });
 }());
