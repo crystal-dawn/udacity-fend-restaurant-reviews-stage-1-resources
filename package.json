@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/crystal-dawn/udacity-fend-feed-reader-testing-resources#readme",
   "dependencies": {
+    "@babel/core": "^7.4.3",
     "browser-sync": "^2.26.3",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",

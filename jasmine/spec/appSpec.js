@@ -23,16 +23,26 @@ $(function() {
 
       expect(element).not.toBe(null);
     });
-    it('has at least one criteria card', () => {
-      const criteriaCard = document.querySelector('.criteria').children.length;
-      expect(criteriaCard).toBeGreaterThan(0);
+    describe('Criteria cards', () => {
+      it('should have at least one card', () => {
+        const criteriaCard = document.querySelector('.criteria').children.length;
+        expect(criteriaCard).toBeGreaterThan(0);
+      });
+
+      describe('Type cards', () => {
+        it('should have at least one card', () => {
+          const criteriaCard = document.querySelector('.type').children.length;
+          expect(criteriaCard).toBeGreaterThan(0);
+        });
+
+        describe('Resource cards', () => {
+          it('should have at least one card', () => {
+            const criteriaCard = document.querySelector('.resource').children.length;
+            expect(criteriaCard).toBeGreaterThan(0);
+          });
+        });
+      });
     });
   });
 
-  describe('Section element', () => {
-    it('has a header tag', () => {
-      const sectionHeader = document.querySelectorAll('.criteria .criteria-header');
-      expect(sectionHeader).not.toBe(null);
-    })
-  });
 }());
