@@ -1,14 +1,14 @@
-# [Feed Reader Testing Resources](https://crystal-dawn-github.io/udacity-feed-reader-testing-resources)
+# [Restaurant Reviews: Stage 1 Resources](https://crystal-dawn-github.io/udacity-restaurant-reviews-stage-1-resources)
 
 ## Overview
-This is a collection of resources which students found useful to complete the Feed Reader Testing Project for the Udacity Front End Developer Nanodegree project. Contributions can be submitted as a pull request to [resources.js](https://github.com/crystal-dawn/udacity-fend-feed-reader-testing-resources.git/src/resources.js).
+This is a collection of resources which students found useful to complete the Restaurant Reviews: Stage 1 Project for the Udacity Front End Developer Nanodegree project. Contributions can be submitted as a pull request to [resources.js](https://github.com/crystal-dawn/udacity-fend-restaurant-reviews-stage-1-resources.git/src/resources.js).
 
 This has been developed with techniques taught in the classroom leading up to this project
 
 ## View Page
 ### Local
- 1. `git clone https://github.com/crystal-dawn/udacity-fend-feed-reader-testing-resources.git`
- 2. `cd udacity-fend-feed-reader-testing-resources`
+ 1. `git clone https://github.com/crystal-dawn/udacity-fend-restaurant-reviews-stage-1-resources.git`
+ 2. `cd udacity-fend-restaurant-reviews-stage-1-resources`
  3. `npm i`
 
 ## Contribution

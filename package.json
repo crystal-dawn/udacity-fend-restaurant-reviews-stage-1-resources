@@ -1,14 +1,14 @@
 {
-  "name": "feed-reader-testing",
+  "name": "restaurant-reviews-stage-1",
   "version": "1.0.0",
-  "description": "'Resources for Udacity Frontend Nanodegree project Feed Reader Testing'",
+  "description": "'Resources for Udacity Frontend Nanodegree project Restaurant Reviews: Stage 1'",
   "main": "app.js",
   "scripts": {
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/crystal-dawn/udacity-fend-feed-reader-testing-resources.git"
+    "url": "git+https://github.com/crystal-dawn/udacity-fend-restaurant-reviews-stage-1-resources.git"
   },
   "keywords": [
     "Udacity",
@@ -25,9 +25,9 @@
   "author": "Crystal Yungwirth",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/crystal-dawn/udacity-fend-feed-reader-testing-resources/issues"
+    "url": "https://github.com/crystal-dawn/udacity-fend-restaurant-reviews-stage-1-resources/issues"
   },
-  "homepage": "https://github.com/crystal-dawn/udacity-fend-feed-reader-testing-resources#readme",
+  "homepage": "https://github.com/crystal-dawn/udacity-fend-restaurant-reviews-stage-1-resources#readme",
   "dependencies": {
     "@babel/core": "^7.4.3",
     "browser-sync": "^2.26.3",

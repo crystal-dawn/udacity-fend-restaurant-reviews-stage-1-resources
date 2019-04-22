@@ -32,7 +32,7 @@ console.log(entries);
     document.querySelector('main').insertAdjacentHTML('afterbegin',
       `<section class="criteria">
           <div id="ctn${criteriaIndex}" style="position:relative;">
-            <a id="criteria${criteriaIndex}">&nbsp;</a>
+            <a class="criteria-link" id="criteria${criteriaIndex}">&nbsp;</a>
             <h2 class="criteria-header">${criteria}</h2>
           </div>
         </section>`);
